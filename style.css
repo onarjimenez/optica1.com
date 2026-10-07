@@ -1,0 +1,19 @@
+*{box-sizing:border-box}body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#f3f6fa;color:#222}
+header{background:#1f4e79;color:#fff;display:flex;flex-wrap:wrap;gap:16px;align-items:center;padding:10px 20px}
+header nav{display:flex;gap:4px;flex:1;flex-wrap:wrap}header a{color:#cfe2f3;text-decoration:none;padding:6px 10px;border-radius:6px}
+header a.on,header a:hover{background:#2e75b6;color:#fff}header span{font-size:.85rem}
+main{max-width:1100px;margin:20px auto;padding:0 16px}h2{color:#1f4e79}
+.card{background:#fff;border-radius:10px;padding:16px;box-shadow:0 1px 4px #0002;margin-bottom:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;align-items:end}
+label{display:flex;flex-direction:column;font-size:.85rem;gap:4px;font-weight:600}
+input,select,textarea{padding:8px;border:1px solid #bbb;border-radius:6px;font:inherit;font-weight:400}
+button,.btn2{background:#2e75b6;color:#fff;border:0;border-radius:6px;padding:8px 14px;cursor:pointer;text-decoration:none;font-size:.9rem;display:inline-block}
+.btn2{background:#6c8aa8}button.del{background:#c0392b}button:hover{opacity:.9}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 1px 4px #0002;margin-bottom:20px}
+th{background:#1f4e79;color:#fff;text-align:left}th,td{padding:8px 10px;border-bottom:1px solid #e5e5e5;font-size:.9rem}
+.acc{display:flex;gap:6px}.acc form{margin:0}.search{display:flex;gap:6px;margin-bottom:12px}.search input{flex:1}
+.msg{background:#e2f0d9;border-left:4px solid #5aa02c;padding:10px 14px;border-radius:6px;margin-bottom:14px}.msg.err{background:#fde2e0;border-color:#c0392b}
+.b{padding:2px 9px;border-radius:12px;font-size:.8rem;color:#fff;white-space:nowrap}.verde{background:#4caf50}.amar{background:#e6a100}.rojo{background:#c0392b}.azul{background:#2e75b6}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}.kpi span{display:block;font-size:.85rem;color:#666}.kpi b{font-size:1.6rem;color:#1f4e79}
+.chk{flex-direction:row;align-items:center}body.login{display:grid;place-items:center;min-height:100vh}body.login .card{width:340px;display:flex;flex-direction:column;gap:12px}
+.hint{font-size:.75rem;color:#666;margin:0}details summary{cursor:pointer;color:#2e75b6}

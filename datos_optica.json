@@ -1,0 +1,179 @@
+{
+    "seq": {
+        "usuarios": 4,
+        "clientes": 5,
+        "productos": 7,
+        "ventas": 0,
+        "ordenes": 0,
+        "movimientos": 0
+    },
+    "usuarios": [
+        {
+            "id": 1,
+            "nombre": "Administrador",
+            "correo": "admin@optica.com",
+            "rol": "administrador",
+            "clave": "$2y$10$8\/6UDNymCHkzLaMNWSXkEOJolYGFjvAuro5LhhptEOJIq6YiTdq0m"
+        },
+        {
+            "id": 2,
+            "nombre": "Optómetra",
+            "correo": "optometra@optica.com",
+            "rol": "optometra",
+            "clave": "$2y$10$SjmyrculTosNc5AZF3L4GOfFs5kUzToBfMIYk1\/wJbxs6BHCL9452"
+        },
+        {
+            "id": 3,
+            "nombre": "Vendedor",
+            "correo": "vendedor@optica.com",
+            "rol": "vendedor",
+            "clave": "$2y$10$68RVFVUOM7U6nzp9kAhPmuks8O7FOdddjlpX3WV6kS2bOhGBIzERO"
+        },
+        {
+            "id": 4,
+            "nombre": "Auxiliar",
+            "correo": "auxiliar@optica.com",
+            "rol": "auxiliar",
+            "clave": "$2y$10$CRPayLJHYkKjKYAZhRV.h.8FfFbPFagLtsO6a5v1r02s.PFBJBCF6"
+        }
+    ],
+    "clientes": [
+        {
+            "id": 1,
+            "documento": "1020304050",
+            "nombre": "María Fernanda Ruiz",
+            "fecha_nac": "1990-05-14",
+            "telefono": "3001112233",
+            "correo": "maria@correo.com",
+            "direccion": "Calle 10 # 5-20",
+            "observaciones": "",
+            "fecha_registro": "2026-10-07"
+        },
+        {
+            "id": 2,
+            "documento": "1098765432",
+            "nombre": "Carlos Pérez",
+            "fecha_nac": "1985-11-02",
+            "telefono": "3109998877",
+            "correo": "carlos@correo.com",
+            "direccion": "Carrera 3 # 12-45",
+            "observaciones": "Usa lentes progresivos",
+            "fecha_registro": "2026-10-07"
+        },
+        {
+            "id": 3,
+            "documento": "52123456",
+            "nombre": "Laura Gómez",
+            "fecha_nac": "2001-02-28",
+            "telefono": "3205554433",
+            "correo": "laura@correo.com",
+            "direccion": "Av. Principal 8-10",
+            "observaciones": "",
+            "fecha_registro": "2026-10-07"
+        },
+        {
+            "documento": "1234457398",
+            "nombre": "onar",
+            "fecha_nac": "2026-10-06",
+            "telefono": "3233179235",
+            "correo": "onarjimenez94@gmail.com",
+            "direccion": "xxxxxxx",
+            "observaciones": "aaaa",
+            "id": 4,
+            "fecha_registro": "2026-10-07"
+        },
+        {
+            "documento": "132345654",
+            "nombre": "juan",
+            "fecha_nac": "2026-10-06",
+            "telefono": "3542628232",
+            "correo": "juan@gmail.com",
+            "direccion": "xxxxxxx",
+            "observaciones": "eee",
+            "id": 5,
+            "fecha_registro": "2026-10-07"
+        }
+    ],
+    "productos": [
+        {
+            "id": 1,
+            "codigo": "MON-001",
+            "categoria": "Montura",
+            "marca": "Ray-Ban",
+            "modelo": "RB5154",
+            "descripcion": "",
+            "proveedor": "Distribuidora Visión",
+            "precio": 320000,
+            "stock": 8
+        },
+        {
+            "id": 2,
+            "codigo": "MON-002",
+            "categoria": "Montura",
+            "marca": "Oakley",
+            "modelo": "OX8046",
+            "descripcion": "",
+            "proveedor": "Distribuidora Visión",
+            "precio": 410000,
+            "stock": 2
+        },
+        {
+            "id": 3,
+            "codigo": "LEN-001",
+            "categoria": "Lente",
+            "marca": "Essilor",
+            "modelo": "Monofocal CR-39",
+            "descripcion": "",
+            "proveedor": "Laboratorio Óptico SA",
+            "precio": 120000,
+            "stock": 20
+        },
+        {
+            "id": 4,
+            "codigo": "LEN-002",
+            "categoria": "Lente",
+            "marca": "Essilor",
+            "modelo": "Progresivo Varilux",
+            "descripcion": "",
+            "proveedor": "Laboratorio Óptico SA",
+            "precio": 480000,
+            "stock": 6
+        },
+        {
+            "id": 5,
+            "codigo": "ACC-001",
+            "categoria": "Accesorio",
+            "marca": "Genérico",
+            "modelo": "Estuche rígido",
+            "descripcion": "",
+            "proveedor": "Insumos Ópticos",
+            "precio": 15000,
+            "stock": 30
+        },
+        {
+            "id": 6,
+            "codigo": "ACC-002",
+            "categoria": "Accesorio",
+            "marca": "Genérico",
+            "modelo": "Líquido limpiador",
+            "descripcion": "",
+            "proveedor": "Insumos Ópticos",
+            "precio": 12000,
+            "stock": 0
+        },
+        {
+            "codigo": "MON-003",
+            "categoria": "Accesorio",
+            "marca": "ray-ban",
+            "modelo": "RB5154",
+            "descripcion": "MM",
+            "proveedor": "",
+            "precio": 0,
+            "stock": 0,
+            "id": 7
+        }
+    ],
+    "ventas": [],
+    "ordenes": [],
+    "movimientos": []
+}
